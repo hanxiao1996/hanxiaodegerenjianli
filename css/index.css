@@ -1,0 +1,819 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+/*头部开始*/
+header{
+    margin: 0 auto;
+    background-image: url(../img/header_bk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: 0 0%;
+}
+main{
+    height: 599px;
+    padding:30px 40px 0;
+    margin: 0 auto;
+}
+.min_nav{
+    margin: 30px auto 10px;
+    width:200px;
+    height: 40px;
+    padding:0px 40px 0;
+    text-align: center;
+}
+.min_box{
+    font-size: 16px;
+    background:#000;
+    color: #ffffff;
+    margin: 0 auto 10px;
+    width:80px;
+    padding: 10px;
+}
+.max_nav ul{
+     height: 31px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.max_nav ul li {
+    width: 102px;
+    text-align: center;
+    line-height: 31px;
+}
+.max_nav span{
+    color: #fff;
+}
+.name{
+    width:100%;
+    text-align: center;
+    font-weight: 400;
+    color: #ffffff;
+}
+.english_name{
+    text-align: center;
+    color: #ffffff;
+}
+.work{
+    text-align: center;
+    color: #01FBFB;
+}
+.way{
+    display: flex;
+    justify-content:center;
+}
+.way ul{
+    height: 64px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.way ul .icont1{
+    width:62px;
+    height:62px;
+    background-image: url(../img/social_icon_64x64.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+.way ul .icont2{
+    width:62px;
+    height:62px;
+    background-image: url(../img/social_icon_64x64.png);
+    background-repeat: no-repeat;
+    background-position: -128px 0;
+}
+.way ul .icont3{
+    width:62px;
+    height:62px;
+    background-image: url(../img/social_icon_64x64.png);
+    background-repeat: no-repeat;
+    background-position: -512px 0;
+}
+.way ul .icont4{
+    width:62px;
+    height:62px;
+    background-image: url(../img/social_icon_64x64.png);
+    background-repeat: no-repeat;
+    background-position: -64px 0;
+}
+
+main .down i{
+    text-align: center;
+    display: block;
+    font-size: 50px;
+    color: #ffffff;
+}
+main .down i:hover{
+    color: #01FBFB;
+}
+/*头部结束*/
+/*个人自我说明部分*/
+.big_background{
+    width: 100%;
+    height: auto;
+    background: #D3DBE1;
+}
+.a{
+    height: 300px;
+    border-radius: 50%;
+    background-image: url(../img/touxiang.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.b{
+    padding: 40px;
+    background: #234A68;
+    /*font-size:16px;*/
+    line-height: 32px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: left;
+}
+/*个人自我说明部分结束*/
+/*知识技能部分*/
+.skill_R ul li{
+    font-size: 16px;
+    color: #8d9095;
+    margin-top:50px ;
+}
+.skill_R .skill_1{
+    height:auto;
+    color: #696969;
+    font-size: 14px;
+    line-height: 24px;
+}
+.skill_R ul li .Progressbar{
+    height: 32px;
+    border-radius: 10px;
+    background: #BDC3C7;
+}
+.Progressbar .Progressbar2{
+    width:60%;
+    height:32px;
+    border-radius: 10px;
+    background:#1ABC9C;
+}
+.Progressbar .Progressbar3{
+    width:50%;
+    height:32px;
+    border-radius: 10px;
+    background:#E74C3C;
+}
+.Progressbar .Progressbar4{
+    width:40%;
+    height:32px;
+    border-radius: 10px;
+    background:#34495E;
+}
+.Progressbar .Progressbar5{
+    width:90%;
+    height:32px;
+    border-radius: 10px;
+    background:#3498DB;
+}
+.Progressbar .Progressbar6{
+    width:80%;
+    height:32px;
+    border-radius: 10px;
+    background:#D35400;
+}
+.Progressbar .Progressbar7{
+    width:41%;
+    height:32px;
+    border-radius: 10px;
+    background:#9B59B6;
+}
+/*知识技能部分结束*/
+/*个人作品展示部分*/
+.section3{
+    background-image: url(../img/section3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 0%;
+}
+.preson{
+    width: 144px;
+    height: 36px;
+    display: inline-block;
+    text-align: center;
+    margin-top:50px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.works_show{
+    height: 530px;
+    margin: 50px auto 0;
+    display:flex;
+    justify-content:space-around;
+}
+.show_img_box{
+    width:350px;
+}
+.show_img{
+    margin: auto auto;
+}
+.show_img1{
+    background:url("../img/show1.jpg");
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+}
+.show_img2{
+    background:url("../img/show2.jpg");
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+}
+.show_img3{
+     background:url("../img/show3.jpg");
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+ }
+.show_img4{
+      background:url("../img/show4.jpg");
+      background-repeat: no-repeat;
+  }
+.show_img5{
+    margin-top: 30px;
+    background: url("../img/show5.jpg");
+    background-repeat: no-repeat;
+}
+.show_img6{
+    margin-top: 30px;
+    background: url("../img/show6.jpg");
+    background-repeat: no-repeat;
+}
+.show_img7{
+    margin-top: 30px;
+    background: url("../img/show7.jpg");
+    background-repeat: no-repeat;
+}.show_img8{
+     margin-top: 30px;
+     background: url("../img/show8.jpg");
+     background-repeat: no-repeat;
+ }
+/*个人作品展示部分结束*/
+/*轮播图部分*/
+.section5{
+    width:100%;
+    height: 699px;
+    margin-top: 50px;
+}
+.banner_box h3{
+    text-align: center;
+    font-size: 24px;
+    color: #000;
+    font-weight:normal;
+}
+.banner{
+    width:1429px;
+    height: 669px;
+}
+.banner_box ul{
+    width: 1000px;
+    height: 562px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.banners{
+    width: 1000px;
+    height: 562px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.banners .banner1{
+    width: 1000px;
+    height: 562px;
+    display: block;
+    margin: 0 auto;
+}
+.banners .banner2{
+    width: 1000px;
+    height: 562px;
+    display: block;
+    float: left;
+    animation: lunbo 4s 0.5s linear infinite;
+    position: absolute;
+    right:-1000px;
+    top:0;
+}
+@keyframes lunbo {
+    from{
+        transform:translateX(0px) ;
+    }
+    50%{
+        transform:translateX(-1000px) ;
+    }
+   to{
+       transform: translateX(-2000px) ;
+   }
+}
+
+/*轮播图部分结束*/
+/*联系我的黑框部分*/
+.section4{
+    background: #212121;
+    color: #ffffff;
+}
+.fly_left{
+    height: 96px;
+    background:url("../img/fly.png") no-repeat;
+    margin-top: 100px;
+}
+.fly_center{
+    width: 670px;
+    height: 104px;
+    text-align: center;
+    margin-top: 90px;
+}
+.way ul .icont5{
+     width:62px;
+     height:62px;
+     background-image: url(../img/social_icon_64x64.png);
+     background-repeat: no-repeat;
+     background-position: -1282px 0;
+ }
+.way ul .icont6{
+    width:62px;
+    height:62px;
+    background-image: url(../img/social_icon_64x64.png);
+    background-repeat: no-repeat;
+    background-position: -1346px 0;
+}
+.way ul .icont7{
+     width:62px;
+     height:62px;
+     background-image: url(../img/social_icon_64x64.png);
+     background-repeat: no-repeat;
+     background-position: -1410px 0;
+ }
+.way ul .icont8{
+    width:62px;
+    height:62px;
+    background-image: url(../img/social_icon_64x64.png);
+    background-repeat: no-repeat;
+    background-position: -1218px 0;
+}
+
+.fly_center .span1{
+    font-size: 28px;
+}
+.fly_center .span2{
+    font-size:17px;
+}
+.row button{
+    margin-top: 130px;
+}
+/*联系我的黑框部分结束*/
+/*最底部联系我的部分*/
+footer{
+    margin: 0 auto;
+    background: #103B5B;
+    overflow:hidden;
+}
+.footer_1{
+    overflow: hidden;
+}
+.footer_1 h1{
+    color: #ffffff;
+    text-align: center;
+}
+.footer_1 p {
+    font-size: 22px;
+    line-height: 23px;
+    color: #ffffff;
+    text-align: center;
+}
+.footer_1 p a{
+    color: #11A1A8;
+}
+.footer_1 h5{
+    color: #ffffff;
+    margin-top:40px;
+    text-align: center;
+}
+/*最底部联系我的部分结束*/
+/*大屏幕 大桌面显示器 (≥1200px)*/
+@media screen and (min-width: 1200px){
+    header{
+        height: 779px;
+    }
+    main{
+        width:1200px;
+        height: 599px;
+    }
+    .min_nav{
+        display: none;
+    }
+    .max_nav{
+        display: block;
+    }
+    .max_nav ul{
+        width:749px;
+    }
+    .name{
+        line-height: 79px;
+        font-size: 60px;
+        margin: 100px 0 10px ;
+    }
+    .english_name{
+        line-height: 25px;
+        font-size: 20px;
+        margin-bottom: 31px;
+    }
+    .work{
+        height:20px;
+        font-size: 16px;
+    }
+    .way{
+        margin-top: 40px;
+        height: 64px;
+    }
+    .way ul{
+        width:296px ;
+    }
+    main .down i{
+        margin-top: 90px;
+    }
+    .section1{
+        height: 575px;
+    }
+    .a{
+        margin:140px auto 0;
+    }
+    .b{
+        font-size:16px;
+        margin-top: 130px;
+        padding: 40px;
+        height: 375px;
+    }
+    .section2{
+        height: 908px;
+    }
+    .section2 h4{
+        margin:50px 0 0 -50px;
+        font-size: 23px;
+    }
+    .section2 .online{
+        width: 131px;
+        height: 4px;
+        margin:30px 0 0 -62px;
+        background:#40b6ff;
+    }
+    .skill_R{
+        height:758px;
+    }
+    .skill_R .skill_1{
+        width: 90%;
+    }
+    .skill_R ul li .Progressbar{
+        width: 80%;
+    }
+    .show_img{
+        width: 250px;
+        height: 250px;
+    }
+    .section3{
+        height: 785px;
+    }
+    .show_img_box{
+        height: 530px;
+    }
+    .section4{
+        height: 265px;
+    }
+    footer{
+        height:594px;
+    }
+    .footer_1{
+        width: 1200px;
+        height:354px;
+        margin:100px auto;
+    }
+    .footer_1 h1{
+        font-size: 50px;
+        line-height:70px;
+        margin:30px auto 20px ;
+
+    }
+}
+/*中等屏幕 桌面显示器 (≥992px)*/
+@media  screen and (min-width:992px) and (max-width:1200px){
+    header{
+        height: 779px;
+    }
+    main{
+        width:988px;
+        height: 599px;
+    }
+    .min_nav{
+        display: none;
+    }
+    .max_nav ul{
+        width:749px;
+    }
+    .name{
+        line-height: 79px;
+        font-size: 60px;
+        margin: 100px 0 10px ;
+    }
+    .english_name{
+        line-height: 25px;
+        font-size: 20px;
+        margin-bottom: 31px;
+    }
+    .work{
+        height:20px;
+        font-size: 16px;
+    }
+    .way{
+        margin-top: 40px;
+        height: 64px;
+    }
+    .way ul{
+        width:296px ;
+    }
+    main .down i{
+        margin-top: 90px;
+    }
+    .section1{
+        height: 575px;
+    }
+    .a{
+        margin:140px auto 0;
+    }
+    .b{
+        font-size:16px;
+        margin-top: 110px;
+        padding: 30px;
+        height: 440px;
+    }
+    .section2{
+        height: 959px;
+    }
+    .section2 h4{
+        margin:50px 0 0 -50px;
+        font-size: 23px;
+    }
+    .section2 .online{
+        width: 131px;
+        height: 4px;
+        margin:30px 0 0 -62px;
+        background:#40b6ff;
+    }
+    .skill_R{
+        height:809px;
+    }
+    .skill_R .skill_1{
+        width: 90%;
+    }
+    .skill_R ul li .Progressbar{
+        width: 70%;
+    }
+    .show_img{
+        width: 224px;
+        height: 224px;
+    }
+    .section3{
+        height: 785px;
+    }
+    .show_img_box{
+        height: 530px;
+    }
+    .section4{
+        height: 265px;
+    }
+    footer {
+        height: 594px;
+    }
+    .footer_1{
+        width: 925px;
+        height:354px;
+        margin:100px auto;
+    }
+    .footer_1 h1{
+        font-size: 50px;
+        line-height:70px;
+        margin:30px auto 20px;
+
+    }
+}
+/*小屏幕 平板 (≥768px)*/
+@media screen and (min-width:768px) and (max-width:992px){
+    .max_nav{
+        display: none;
+    }
+    .min_nav{
+        display: block;
+    }
+    .name{
+        line-height: 79px;
+        font-size: 60px;
+        margin: 150px 0 10px ;
+    }
+    .english_name{
+        line-height: 25px;
+        font-size: 20px;
+        margin-bottom: 31px;
+    }
+    .work{
+        height:20px;
+        font-size: 16px;
+    }
+    .way{
+        margin-top: 40px;
+        height: 64px;
+    }
+    .way ul{
+        width:296px ;
+    }
+    main .down i{
+        margin-top: 90px;
+    }
+    .section1{
+        height: 826px;
+    }
+    .a{
+        margin:150px auto 0;
+    }
+    .b{
+        font-size:15px;
+        margin-top: 20px;
+        padding: 10px;
+        height: 269px;
+    }
+    .section2{
+        height:1015px;
+    }
+    .section2 h4{
+        margin:50px 0 0 0;
+        font-size: 23px;
+    }
+    .section2 .online{
+        width: 131px;
+        height: 4px;
+        margin:30px 0 0 -20px;
+        background:#40b6ff;
+    }
+    .skill_R{
+        height:784px;
+    }
+    .skill_R .skill_1{
+        width: 90%;
+    }
+    .skill_R ul li .Progressbar{
+        width: 70%;
+    }
+    .show_img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .works_show{
+        height: 530px;
+        margin: 50px auto 0;
+        display:flex;
+        justify-content:space-around;
+        flex-wrap: wrap;
+    }
+    .show_img_box{
+        width:100%;
+        height: 530px;
+    }
+    .section3{
+        height: 2376px;
+    }
+    .show_img_box{
+        height: 530px;
+    }
+    .section4{
+        height: 265px;
+    }
+    footer{
+        height:394px;
+    }
+    .footer_1{
+        width: 735px;
+        height:354px;
+        margin:15px auto;
+    }
+    .footer_1 h1{
+        font-size: 50px;
+        line-height:42px;
+        margin:25px auto 50px ;
+
+    }
+}
+
+/*超小屏幕 手机 (<768px)*/
+@media  screen and (max-width: 768px) {
+    .max_nav{
+        display: none;
+    }
+    .min_nav{
+        display: block;
+    }
+    .name{
+        line-height: 40px;
+        font-size: 30px;
+        margin: 165px 0 10px ;
+    }
+    .english_name{
+        line-height: 25px;
+        font-size: 20px;
+        margin-bottom: 31px;
+    }
+    .work{
+        height:20px;
+        font-size: 16px;
+    }
+    .way{
+        margin-top: 40px;
+        height: 64px;
+    }
+    .way ul{
+        width:296px ;
+    }
+    main .down i{
+        margin-top: 90px;
+    }
+    .section1{
+        height: auto;
+    }
+    .a{
+        margin:20px auto 0;
+    }
+    .b{
+        font-size:15px;
+        margin: 20px 0 30px;
+        padding: 10px;
+        height: auto;
+    }
+    .section2{
+        height:1092px;
+    }
+    .section2 h4{
+        margin:50px 0 0 0;
+        font-size: 23px;
+    }
+    .section2 .online{
+        width: 131px;
+        height: 4px;
+        margin:30px 0 0 -20px;
+        background:#40b6ff;
+    }
+    .skill_R{
+        height:860px;
+    }
+    .skill_R .skill_1{
+        width: 100%;
+    }
+    .skill_R ul li .Progressbar{
+        width: 100%;
+    }
+    .show_img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .works_show{
+        height: 530px;
+        margin: 50px auto 0;
+        display:flex;
+        justify-content:space-around;
+        flex-wrap: wrap;
+    }
+    .show_img_box{
+        width:100%;
+        height: 530px;
+    }
+    .section3{
+        height: 2376px;
+    }
+    .show_img_box{
+        height: 530px;
+    }
+    .section4{
+        height: 380px;
+    }
+    footer{
+        height:368px;
+    }
+    .footer_1{
+        width: 375px;
+        height:328px;
+        margin:15px auto;
+    }
+    .footer_1 h1{
+        font-size: 30px;
+        line-height:35px;
+        margin:25px auto 50px ;
+
+    }
+}
